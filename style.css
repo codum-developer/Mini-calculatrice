@@ -41,23 +41,32 @@ li:active {
 }
 
 .screen p {
-  margin: 0 3px 0 0 ;
+  margin: 0 3px 0 0;
 }
-.input::after{
+
+.input::after {
   content: "|";
   animation: cling 1s backwards infinite;
 }
-@keyframes cling{
-  0%{opacity: 1;}
-  100%{opacity: 0;}
+
+@keyframes cling {
+  0% {
+    opacity: 1;
+  }
+  
+  100% {
+    opacity: 0;
+  }
 }
-.response{
+
+.response {
   display: block;
-  position : absolute;
+  position: absolute;
   bottom: 5px;
   right: 5px;
   opacity: .8;
 }
+
 .clavier {
   width: 100%;
   height: 80%;
@@ -76,7 +85,7 @@ li:active {
 
 #deleteOne {
   grid-column: 4/4;
-
+  
 }
 
 #equal {

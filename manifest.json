@@ -1,5 +1,5 @@
 {
-  "name" : "Mini calculatrice",
+  "name": "Mini calculatrice",
   "short_name": "M-calculator",
   "description": "une calculatrice de poche simple pour des simples calculs",
   "start_url": "http://localhost:7700/Mini_Calculatrice/index.html",
