@@ -16,29 +16,27 @@
     <p class="response"></p>
   </section>
   <div class="clavier">
-    <ul class="button">
-      <li id="deleteAll">C</li>
-      <li id="plus">+</li>
-      <li id="multiplication">x</li>
-      <li id="division">/</li>
-      
-      <li id="one">1</li>
-      <li id="two">2</li>
-      <li id="three">3</li>
-      <li id="munus">-</li>
-      <li id="four">4</li>
-      <li id="five">5</li>
-      <li id="six">6</li>
-      <li id="deleteOne"><i class="fas fa-backspace"></i></li>
-      <li id="seven">7</li>
-      <li id="eight">8</li>
-      <li id="nine">9</li>
-      <li id="point">.</li>
-      <li id="zero">0</li>
-      <li id="pourcentage">%</li>
-      
-      <li id="equal">=</li>
-    </ul>
+    <div class="button">
+      <button class="deleteAll" onclick="displayInput(this)">C</button>
+      <button class="plus" onclick="displayInput(this)" value="+">+</button>
+      <button class="division" onclick="displayInput(this)" value="/">/</button>
+      <button class="multiplication" onclick="displayInput(this)" value="x">x</button>
+      <button class="one" onclick="displayInput(this)" value="1">1</button>
+      <button class="two" onclick="displayInput(this)" value="2">2</button>
+      <button class="three" onclick="displayInput(this)" value="3">3</button>
+      <button class="munus" onclick="displayInput(this)" value="-">-</button>
+      <button class="four" onclick="displayInput(this)" value="4">4</button>
+      <button class="five" onclick="displayInput(this)" value="5">5</button>
+      <button class="sixe" onclick="displayInput(this)" value="6">6</button>
+      <button class="deleteOne" onclick="displayInput(this)"><i class="fas fa-backspace"></i></button>
+      <button class="seven" onclick="displayInput(this)" value="7">7</button>
+      <button class="eight" onclick="displayInput(this)" value="8">8</button>
+      <button class="nine" onclick="displayInput(this)" value="9">9</button>
+      <button class="point" onclick="displayInput(this)" value=".">.</button>
+      <button class="zero" onclick="displayInput(this)" value="0">0</button>
+      <button class="pourcentage" onclick="displayInput(this)">%</button>
+      <button class="equal" onclick="displayInput(this)">=</button>
+    </div>
   </div>
   
   <script src="./script.js"></script>
