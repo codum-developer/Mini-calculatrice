@@ -1,2 +1,2 @@
 # Mini-calculatrice
-Un petit ça calculatrice pour de calcul simple
+Un petit calculatrice pour de calcul simple
