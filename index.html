@@ -12,9 +12,25 @@
 
 <body>
   <section class="screen">
+    <div class="historic">
+      <details id="historic">
+        <summary>
+         historique
+         <i class="fas fa-ellipsis-v" id="more"></i>
+        </summary>
+        <div class="Nohistory">
+          <figure>
+            <img src="./icon/roadblock.gif" alt="" style="width: 50%; height: 50%;" />
+            <figcaption>pas encore d'historique</figcaption>
+          </figure>
+        </div>
+      </details>
+    </div>
     <p class="input"></p>
     <p class="response"></p>
+    <p class="instantResponse"></p>
   </section>
+  
   <div class="clavier">
     <div class="button">
       <button class="deleteAll" onclick="displayInput(this)">C</button>
@@ -38,6 +54,7 @@
       <button class="equal" onclick="displayInput(this)">=</button>
     </div>
   </div>
+  
   
   <script src="./script.js"></script>
 </body>
